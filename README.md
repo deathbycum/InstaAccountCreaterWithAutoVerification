@@ -1,11 +1,9 @@
 # InstaAccountCreaterWithAutoVerification
-Instagram Account Creater With Email Verification
 
 It is written in Vb.net and usese temp-mail api for email verifcation, Here is the usage.
 
-```
+```vb.net
 Dim methodOBJ As New Methods
-
 ''For Registration
 methodOBJ.Register(email, password, username, first&lastname)
 
