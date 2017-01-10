@@ -1,6 +1,6 @@
 # InstaAccountCreaterWithAutoVerification
 
-Written in VB.NET and it use temp-mail api for email verifcation, Here is the usage.
+Written In VB.NET And It Use Temp-Mail Api For Email Verifcation, Here is the usage.
 
 ```vb.net
 Dim methodOBJ As New Methods
