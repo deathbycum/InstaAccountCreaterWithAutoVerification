@@ -11,5 +11,4 @@ methodOBJ.DoConfirmation(username, password, email) 'Returns Boolean
 ```
 
 Credits : DeathByCum
-
 Contact : https://hackforums.net/member.php?action=profile&uid=2064850
