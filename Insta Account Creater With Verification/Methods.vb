@@ -176,6 +176,9 @@ Public Class Methods
             struct = jd.Deserialize(Of List(Of ResponseStruct.TempMailResponse))(rawdata)
 
             ''Read all emails and fetch confirmation link from email send from Instagram
+            
+            Threading.Thread.Sleep(3000) ''Need to wait atleast 3 sec because Insta takes a while to send email
+            
             For i = 0 To struct.Count - 1
                 Dim classOBJ = CType(struct.Item(i), ResponseStruct.TempMailResponse)
                 If classOBJ.mail_from = """Instagram"" <no-reply@mail.instagram.com>" Then
